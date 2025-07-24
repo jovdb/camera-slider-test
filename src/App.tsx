@@ -3,7 +3,7 @@ import { createStore } from 'solid-js/store';
 
 import styles from './App.module.css';
 import { render } from './render';
-import { run } from '../play';
+import { run } from './play';
 
 const App: Component = () => {
   let myCanvas: HTMLCanvasElement;
