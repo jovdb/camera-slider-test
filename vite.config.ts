@@ -3,7 +3,7 @@ import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
   plugins: [solidPlugin()],
-  base: process.env.CI ? '/camera-slider-test/' : '/',
+  base: '/camera-slider-test/',
   server: {
     port: 3000,
   },
